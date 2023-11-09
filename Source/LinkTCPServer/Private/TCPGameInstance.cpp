@@ -2,10 +2,18 @@
 
 
 #include "TCPGameInstance.h"
+#include "Sockets.h"
+#include "SocketSubsystem.h"
+#include "Interfaces/IPv4/IPv4Address.h"
+#include "IPAddress.h"
 
 UTCPGameInstance::UTCPGameInstance()
 {
 
+}
+
+void UTCPGameInstance::BeginPlay()
+{
 }
 
 void UTCPGameInstance::SetData(int playernum, int portnum, FString ip)

@@ -3,3 +3,7 @@
 
 #include "TCPPlayerController.h"
 
+void ATCPPlayerController::BeginPlay()
+{
+	UTPGameInstance* gameinst = Cast<UTPGameInstance>(GetGameInstance());
+}

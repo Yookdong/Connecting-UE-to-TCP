@@ -13,5 +13,7 @@ UCLASS()
 class LINKTCPSERVER_API ATCPPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
+public:
+	ATCPPlayerController() {};
+	virtual void BeginPlay() override;
 };
